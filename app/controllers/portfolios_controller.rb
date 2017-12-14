@@ -50,7 +50,7 @@ class PortfoliosController < ApplicationController
 
     @portfolio_item.destroy
     respond_to do |format|
-      format.html { redirect_to portfolios_path, notice: 'You portfolio item was removed.' }
+      format.html { redirect_to portfolios_path, notice: 'Your portfolio item was removed.' }
     end
   end
 
