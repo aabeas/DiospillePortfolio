@@ -54,4 +54,4 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'jquery-rails'
 
-gem 'diospille_view_tool', git: 'https://github.com/aabeas/diospille_view_tool'
+gem 'diospille_view_tool', '~> 0.1.1'

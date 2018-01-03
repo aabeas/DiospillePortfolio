@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/aabeas/diospille_view_tool
-  revision: e2550b59a7789d70cb795a315c08524e2a09bcaa
-  specs:
-    diospille_view_tool (0.1.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,6 +65,7 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    diospille_view_tool (0.1.1)
     erubi (1.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -200,7 +195,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
-  diospille_view_tool!
+  diospille_view_tool (~> 0.1.1)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
