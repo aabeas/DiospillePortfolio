@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    DiospilleViewTool::Renderer.copyright 'Aaron Beasley', 'All rights reserved'
+    DiospilleViewTool::Renderer.copyright 'diospille', 'All rights reserved'
   end
 end
