@@ -161,16 +161,21 @@ body {
  */
 
 .card-block {
-  color: white;
-  background-color: rgba(5, 5, 5, .5);
+  color: black;
   text-align: left;
   padding: .75rem;
 }
 
 .auth-links a {
-  color: white;
+  color: black;
 }
 
 .register-text {
   text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
 }
