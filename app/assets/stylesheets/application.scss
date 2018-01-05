@@ -156,3 +156,17 @@ body {
     width: 55rem;
   }
 }
+/*
+ * Custome Styles
+ */
+
+.card-block {
+  color: white;
+  background-color: rgba(5, 5, 5, .5);
+  text-align: left;
+  padding: .75rem;
+}
+
+.auth-links a {
+  color: white;
+}
