@@ -155,7 +155,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 /*
@@ -204,4 +204,16 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+.tech-news a {
+  color: darkblue;
+}
+.tech-news > .card {
+  border-radius: 10px;
+  padding: 10px;
 }
