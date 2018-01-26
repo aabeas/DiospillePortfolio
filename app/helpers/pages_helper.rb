@@ -22,4 +22,14 @@ module PagesHelper
       "<a href='#{url}' target='_blank'>#{url}</a>"
     end.html_safe
   end
+
+  def video_background
+    video_tag "HardDrivePhotojpeg.mp4",
+    id: 'background',
+    autobuffer: false,
+    autoplay: false,
+    loop: false,
+    muted: true,
+    poster: 'home_bg.png'
+  end
 end

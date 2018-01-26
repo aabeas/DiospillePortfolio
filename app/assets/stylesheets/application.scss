@@ -221,3 +221,24 @@ body {
 .navbar-brand-font {
   font-family: "raleway",sans-serif;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+.app-card-container p {
+  color: black;
+  text-align: justify;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  margin: 0em 1em;
+}
