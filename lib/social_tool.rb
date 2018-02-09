@@ -7,8 +7,12 @@ module SocialTool
       config.access_token_secret = ENV.fetch("TWITTER_ACCESS_SECRET")
     end
 
-    client.search("#automl OR #cloud OR #tech", result_type: 'mixed').take(6).collect do |tweet|
-      "#{tweet.user.screen_name}: #{tweet.text}"
+    client.search("(#visualize OR #gis OR #esri -rt -emoji", result_type: 'mixed', lang: 'en').take(6).collect do |tweet|
+      "<h6>#{tweet.user.screen_name}:</h6>
+       <h6>#{tweet.created_at}</h6>
+       <p class='brake-line-s'></p>
+       <h5>#{tweet.text}</h5>
+      "
     end
   end
 end

@@ -23,13 +23,13 @@ module PagesHelper
     end.html_safe
   end
 
-  def video_background
-    video_tag "HardDrivePhotojpeg.mp4",
-    id: 'background',
-    autobuffer: false,
-    autoplay: false,
-    loop: false,
-    muted: true,
-    poster: 'home_bg.png'
-  end
+  # def video_background
+  #   video_tag "HardDrivePhotojpeg.mp4",
+  #   id: 'background',
+  #   autobuffer: false,
+  #   autoplay: false,
+  #   loop: false,
+  #   muted: true,
+  #   poster: 'home_bg_w.png'
+  # end
 end
