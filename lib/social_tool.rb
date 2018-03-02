@@ -7,7 +7,7 @@ module SocialTool
       config.access_token_secret = ENV.fetch("TWITTER_ACCESS_SECRET")
     end
 
-    client.search("(#visualize OR #gis OR #esri -rt -emoji", result_type: 'mixed', lang: 'en').take(6).collect do |tweet|
+    client.search("(#visualize OR #splunk OR #gis OR #esri -rt -emoji", result_type: 'mixed', lang: 'en').take(6).collect do |tweet|
       "<h6>#{tweet.user.screen_name}:</h6>
        <h6>#{tweet.created_at}</h6>
        <p class='brake-line-s'></p>

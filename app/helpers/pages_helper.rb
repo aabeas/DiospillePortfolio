@@ -25,6 +25,7 @@ module PagesHelper
 
   # def video_background
   #   video_tag "HardDrivePhotojpeg.mp4",
+  #   playsinline: true,
   #   id: 'background',
   #   autobuffer: false,
   #   autoplay: false,
