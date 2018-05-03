@@ -1,1 +1,45 @@
 @import "bootstrap";
+
+.inner-pages {
+  padding: 2rem;
+}
+
+// .cover {
+//   padding: 0 1.5rem;
+// }
+
+/* About Me */
+.dafodil {
+  background-color: lightblue;
+  color: black;
+}
+
+.profile-img {
+  margin: 0em 0em;
+}
+
+.skills {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Contact */
+
+
+
+/* Tech News */
+
+.tech-news {
+  color: black;
+  margin: 10px;
+}
+.tech-news a {
+  background-color: white;
+  color: darkblue;
+  padding: 0 .1em;
+}
+
+.tech-news > .card-block {
+  padding-bottom: 10px;
+  background-color: lightblue;
+}

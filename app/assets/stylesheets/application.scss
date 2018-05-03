@@ -2,6 +2,7 @@
 @import "font-awesome";
 @import "gritter";
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+@import "pages";
 
 /*
  * Globals
@@ -49,6 +50,10 @@ h6, .h6 {
   font-family: 'Roboto Slab', serif;
 }
 
+.inner {
+  padding: 1rem;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -66,17 +71,12 @@ h6, .h6 {
   margin-top: inherit;
 }
 
-/* Padding for spacing */
-.inner {
-  padding: 2rem;
-}
-
-
 /*
  * Header
  */
 .masthead {
   margin-bottom: 2rem;
+  background-color: white;
 }
 
 .masthead-brand {
@@ -119,9 +119,7 @@ h6, .h6 {
 /*
  * Cover
  */
-.cover {
-  padding: 0 1.5rem;
-}
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
@@ -224,21 +222,6 @@ h6, .h6 {
   color: black;
 }
 
-.tech-news {
-  color: black;
-  margin: 20px;
-}
-.tech-news a {
-  background-color: white;
-  color: darkblue;
-  padding: 0 .25em;
-}
-
-.tech-news > .card-block {
-  padding-bottom: 15px;
-  background-color: lightblue;
-}
-
 .navbar-brand-font {
   font-family: 'Roboto Slab', serif;
 }
@@ -263,23 +246,14 @@ h6, .h6 {
   margin-right: auto;
 }
 
-.profile-img {
-  margin: 0em 0em;
-}
-
-.skill {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.card-block .btn-lg {
-  margin-top: 30px;
-  line-height: 1rem;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  padding: 16px 25px 17px;
-  display: inline-block;
-}
+// .card-block .btn-lg {
+//   margin-top: 30px;
+//   line-height: 1rem;
+//   font-size: 1.3rem;
+//   text-transform: uppercase;
+//   padding: 16px 25px 17px;
+//   display: inline-block;
+// }
 
 .cover-heading{
   margin-top: 30px;
